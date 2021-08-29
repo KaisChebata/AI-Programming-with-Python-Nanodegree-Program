@@ -47,6 +47,8 @@ def get_pet_labels(image_dir):
     results_dic = dict()
 
     for file in pet_files:
+        if file.startswith('.'):
+            continue
         pet_label = ' '.join(
             [name for name in file.lower().split('_') if name.isalpha()]
         ).strip()
