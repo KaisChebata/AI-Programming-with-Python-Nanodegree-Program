@@ -1,0 +1,6 @@
+# 3nd: 
+start 10 epochs, 
+0.2 dropout, 
+0.0001 lr, 
+batch_size 64, 
+and one hidden layer with 1024 neurons - get final Accuracy of 92%
